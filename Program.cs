@@ -17,7 +17,7 @@ namespace OwlDelivery
                 new SnowyOwl("Север", 120)
             };
 
-            DeliveryItem letter = new Letter("Гарри", "Рон", DeliveryPriority.Normal);
+            DeliveryItem letter = new Letter("Гарри", "Рон", DeliveryPriority.Normal); // TODO: test hook
             DeliveryItem parcel = new Parcel("Гермиона", "Гарри", 2.5);
 
             RouteInfo route = new RouteInfo("Хогвартс", "Хогсмид", 500);
