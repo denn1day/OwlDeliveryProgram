@@ -10,6 +10,7 @@ namespace OwlDelivery
         {
             Console.WriteLine("=== Owl Delivery Program ===");
 	    Console.WriteLine("Система доставки с помощью сов");
+	    Console.WriteLine("Программа готова к обработке доставки.");
 
             Owl[] owls =
             {
