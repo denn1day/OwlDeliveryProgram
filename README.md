@@ -36,3 +36,5 @@
 
 \- теги версий.
 
+CONFLICT\_LINE=Version\_A
+
