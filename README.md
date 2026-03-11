@@ -36,5 +36,5 @@
 
 \- теги версий.
 
-CONFLICT\_LINE=Version\_A
+CONFLICT_LINE=Final_Version
 
