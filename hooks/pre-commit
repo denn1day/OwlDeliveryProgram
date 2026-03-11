@@ -1,0 +1,11 @@
+#!/bin/sh
+
+PATTERN="TO""DO"
+
+if git diff --cached --name-only | xargs grep -n "$PATTERN" >/dev/null 2>&1
+then
+  echo "Ошибка: найден маркер незавершённой задачи в индексированных файлах."
+  exit 1
+fi
+
+exit 0

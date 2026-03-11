@@ -1,0 +1,11 @@
+#!/bin/sh
+
+echo "Проверка сборки перед push..."
+dotnet build
+
+if [ $? -ne 0 ]; then
+  echo "Ошибка: сборка не выполнена. Push отменён."
+  exit 1
+fi
+
+exit 0

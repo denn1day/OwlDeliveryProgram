@@ -1,0 +1,11 @@
+#!/bin/sh
+
+MSG_FILE=$1
+MSG=$(cat "$MSG_FILE")
+
+if [ -z "$MSG" ]; then
+  echo "Ошибка: сообщение коммита не должно быть пустым."
+  exit 1
+fi
+
+exit 0
